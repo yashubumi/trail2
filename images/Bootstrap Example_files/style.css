@@ -10,7 +10,7 @@
 #center h1{
   margin-top:10rem;
   font-size:3rem;
-
+/*  background-color:white;*/
   text-align: center;
   color:aliceblue;
   padding-bottom:20%;
@@ -22,29 +22,26 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 #title h2{
-  text-align:center;
-  font-style:oblique 30deg;
-  font-size:6rem;
-  color:grey;
-font-family: 'Lato', sans-serif;
+  text-align: center;
+  padding-top: 0%;
+  font-size:8rem;
+  color:white;
 }
 
 #navigation li a{
   font-size:2rem;
+  /*text-emphasis-color:blue;*/
+ /* background-color: white;*/
   color:burlywood;
+  /*border:3px solid black;*/
   margin-right:2rem;
 }
 
-#slides li a:hover{
 
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 #navigation li a:hover{
-    font-size:1.8rem;
-    font-variant: small-caps;
+    font-size:2.5rem;
+/*  border:3px dashed black;*/
 background-color: rgba(0,0,0,0);
 }
 
@@ -52,16 +49,9 @@ background-color: rgba(0,0,0,0);
   width:0%;
 }
 
-
-#title1 h2{
-  text-align: center;
-  padding-top: 0%;
-  font-size:5rem;
-  font-style:oblique;
-  color:burlywood;
-}
 #body1{
-  background-image: url('../images/travel2.jpg');
+
+  background-image: url('../images/img2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
 }
